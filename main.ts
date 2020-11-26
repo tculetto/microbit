@@ -8,5 +8,7 @@ for (let index = 0; index < 10; index++) {
     times_table_number += 9
 }
 basic.forever(function () {
+    basic.showIcon(IconNames.Heart)
+    basic.pause(500)
     basic.showIcon(IconNames.SmallHeart)
 })
